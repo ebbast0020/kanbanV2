@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>kanbanTe16</title>
+    <link rel="stylesheet" href="kanban.css">
+</head>
+<body>
+    <div id="main">
+        <div class="kanban todo">
+            <h1>Todo</h1>
+            <textarea  id="newTask" placeholder="new task..."></textarea>
+            <button id="saveNewTask">Save</button>
+
+            
+
+
+        </div>
+        <div class="kanban today"><h1>Do Today</h1></div>
+        <div class="kanban progress"><h1>In Progress</h1></div>
+        <div class="kanban done"><h1>Done</h1></div>
+    </div>
+
+  
+
+
+
+    <div id = "todoTemplate" class = "hidden" draggable="true">
+
+        <p>drag me</p>
+
+    </div>
+
+
+    <script src="kanban.js"></script>
+</body>
+</html>

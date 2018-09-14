@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+#main{
+        display:flex;
+
+}
+
+.kanban{
+    border:1px solid blue;
+    min-height: 100vh;
+    flex:1;
+    font-size:1.6rem;
+
+}
+.kanban h1{
+
+    font-size:18px;
+    border-bottom:3px dashed green;
+
+}
+.progress{
+  
+
+}
+
+textarea, button{
+    font-size:1.6rem;
+    width:100%;
+}
+
+.todoTemplate{
+
+    padding:2%;
+    font-size:1.2em;
+    background: rgb(161, 194, 228);
+    border:1px solid grey;
+    cursor:pointer;
+    margin-bottom: 10px;
+
+}
+.backButton{
+    width:100%;
+    font-size:0.8em;
+    color:blue;
+}
+
+.hidden{
+    display:none;
+}
